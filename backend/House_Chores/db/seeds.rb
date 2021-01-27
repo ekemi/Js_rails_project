@@ -8,3 +8,6 @@
 
 lee = House.create(name:'Lee', members:'Peeze  Pius Paron Paor Pap Panthy')
 kee= House.create(name:'Kee', members:"Jeff, Ali, Jan, Tius Lea")
+
+cooking = Chore.create(name: 'cooking', status:"Incomplete", house:lee)
+sweeping = Chore.create(name:"sweeping", status:"Incomplete", house:lee)

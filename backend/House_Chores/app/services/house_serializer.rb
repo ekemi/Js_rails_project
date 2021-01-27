@@ -11,11 +11,11 @@ class HouseSerializer
     def to_serialized_json
         options = {
 
-        # include: {
-        #     chores: {
-        #         only: [:name, :status , :id , :house_id]
-        #     }
-        # },
+        include: {
+            chores: {
+                only: [:name, :status , :id , :house_id]
+            }
+        },
         except: [:updated_at],
         }
         @house.to_json(options)
