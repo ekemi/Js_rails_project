@@ -1,0 +1,225 @@
+html{
+    font-family:sans-serif;
+    
+}
+
+body {
+    background-image: linear-gradient(to right,steelblue, grey);
+}
+/* shadow : hori vert(offset) color*/
+ /* make the add chore disapeared */
+ /*rem relative length relative to the font-size of the root element wich is the browser 2rem  2x the browser's font size, not parent*/
+/* auto default value the browser calculate his height*/
+/*opacity: value 0.0 - 1.0 transparency of an elm used with :hover*/
+/*text-shadow add shadow to a text*/
+/* .container {
+    /* box-shadow: 3px 4px skyblue;   
+    border-radius: 6px 16px;
+    padding: 1rem;
+    width: 420px;
+    height: auto;
+    display: none;
+    background: whitesmoke;
+    opacity: .8;
+    margin: 1rem 2rem;
+    text-shadow: 1px .5px skyblue;
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+/*pop-up display none*/
+/* #house-pop-up {
+    border-radius: 6px 16px;
+    padding: 1rem;
+    width: 420px;
+    height: auto;
+    display: none;
+    background: whitesmoke;
+    opacity: 0.8;
+    box-shadow: 3px 4px skyblue;
+    margin: 1rem 2rem;
+    text-shadow: 1px .5px skyblue;
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+/*select your family display none*/
+/* .family-selector {
+    border-radius: 6px 16px;
+    padding: 1rem;
+    width: 420px;
+    height: auto;
+    display: none;
+    background: whitesmoke;
+    opacity: .8;
+    box-shadow: 3px 4px skyblue;
+    margin: 1rem 2 rem;
+    text-shadow: .5px .5px skyblue;
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+
+/*we dont have id-"card"*/
+/*display : inline-grid: all diect childreen of the grid container automatically become grid item*/
+/* .card {
+    border-radius: 15px 40px;
+    text-align: center;
+    border: grey solid 2px;
+    padding: 20px;
+    width: 200px;
+    height: auto;
+    display:inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px skyblue;
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+/*we dont have id = chore-status*/
+.chore-status {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ /*% is relative to the parent*/
+.add-chore-form{
+    width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* we dont have complete-bn class*/
+/* position: relative=>relative to his normal position */
+/* display:inline-block=> display items or list items horizontaly instead of vertically */
+.complete-btn{
+
+    background-color: skyblue;
+    border-radius: 3px 8px;
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+
+/* we do not have reset-chore-button */
+.reset-chore-button {
+
+    background-color: #9494b8;
+    border-radius: 3px 8px;
+    color:whitesmoke;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+
+}
+
+/* we dont have delete-chore-btn */
+
+.delete-chore-btn{
+
+    background-color: lightsteelblue;
+    border-radius: 3px 8px;
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+
+#add-new-family{
+    border-radius:3px 8px;
+    border: grey solid 2px;
+    font-size: 24px;
+    height: auto;
+    width: auto;
+    border: #9494b8;
+    background: whitesmoke;
+    box-shadow: 3px 4px skyblue;
+    padding: 12px 28px;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* to know */
+#add-new-family button {
+    color: darkslategray;
+    background: whitesmoke;
+}
+
+#new-chore-btn {
+    border-radius: 3px 8px;
+    font-size: 24px;
+    height: auto;
+    width: auto;
+    border: #9494b8;
+    border: 2px;
+    background: whitesmoke;
+    box-shadow: 3px 4px skyblue;
+    padding: 12px 28px;
+    margin-left: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#all-house-options{
+
+    border-radius: 3px 8px;
+    font-size: 24px;
+    height: auto;
+    width: auto;
+    border: #949494;
+    border: 2px;
+    background: whitesmoke;
+    box-shadow: 3px 4px skyblue;
+    padding: 12px 28px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+#tag-line {
+    text-align: center;
+    text-shadow: 2px 2px navy;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.5;
+    font-size: 28px;
+}
+
+/* did not affect the inside yet*/
+#family-chore-list {
+    text-align: center;
+    text-shadow: 2px 2xp navy;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.5;
+    font-size: 28px;
+}
+
+/* we do not have it */
+#submit-form {
+    border-radius: 3px 8px;
+}
